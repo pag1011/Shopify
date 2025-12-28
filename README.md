@@ -61,6 +61,14 @@ The system follows an agent-based workflow:
 
 ### Start Python AI Service
 
+## Environment Variables
+
+Create a `.env` file inside `python-ai-service`:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
 ```bash
 cd python-ai-service
 pip install fastapi uvicorn
