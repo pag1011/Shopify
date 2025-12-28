@@ -1,0 +1,16 @@
+services:
+  rails-backend:
+    build: ./rails-backend
+    ports:
+      - "3000:3000"
+    environment:
+      - PYTHON_SERVICE_URL=http://python-ai-service:8000
+    depends_on:
+      - python-ai-service
+
+  python-ai-service:
+    build: ./python-ai-service
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./python-ai-service/.env
