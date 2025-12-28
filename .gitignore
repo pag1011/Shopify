@@ -1,0 +1,17 @@
+# Environment variables
+.env
+.env.*
+python-ai-service/.env
+
+# Rails
+rails-backend/log/
+rails-backend/tmp/
+rails-backend/storage/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
