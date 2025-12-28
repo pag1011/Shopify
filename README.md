@@ -92,7 +92,8 @@ No real Shopify data or external LLM APIs are used in this version.
 ![AI Answer Output](screenshots/answer.png)
 
 ### API Integration (Rails ↔ Python)
-![API Flow](screenshots/api.png, api1.png)
+![API Flow](screenshots/api.png)
+![API Flow](screenshots/api1.png)
 
 ## Conclusion
 
